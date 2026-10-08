@@ -21,7 +21,7 @@ public class JDBCDemo {
 
             System.out.println("Connected to MySQL!");
 
-            // 3. Create Statement
+            //  Create Statement
             Statement stmt = conn.createStatement();
 
             String createTable =
